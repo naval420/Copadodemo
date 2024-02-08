@@ -152,43 +152,38 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Student in Batch</label>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>Faculity</label>
     <nameField>
-        <label>Student in Batch Name</label>
+        <label>Faculity Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Student in batches</pluralLabel>
+    <pluralLabel>Faculities</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
-        <fullName>Batch__c</fullName>
+        <fullName>Total_number_oi_course__c</fullName>
         <externalId>false</externalId>
-        <label>Batch</label>
-        <referenceTo>Batch__c</referenceTo>
-        <relationshipLabel>Student in batches</relationshipLabel>
-        <relationshipName>Student_in_batches</relationshipName>
-        <relationshipOrder>1</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <label>Total number oi course</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Student__c</fullName>
+        <fullName>Total_amount_from_course__c</fullName>
         <externalId>false</externalId>
-        <label>Student</label>
-        <referenceTo>Student__c</referenceTo>
-        <relationshipLabel>Student in batches</relationshipLabel>
-        <relationshipName>Student_in_batches</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <label>Total amount from course</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+        <type>Currency</type>
     </fields>
 </CustomObject>
