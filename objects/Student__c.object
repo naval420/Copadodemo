@@ -1,5 +1,488 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Student_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Student_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>mycompact</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>To add the student Record</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>Student</label>
+    <nameField>
+        <displayFormat>ST-{0000}</displayFormat>
+        <label>Student Id</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Students</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Student_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Age__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Email__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <visibility>Public</visibility>
+    <compactLayouts>
+        <fullName>mycompact</fullName>
+        <fields>Student_Name__c</fields>
+        <fields>Age__c</fields>
+        <label>mycompact</label>
+    </compactLayouts>
+    <fields>
+        <fullName>Age__c</fullName>
+        <externalId>false</externalId>
+        <label>Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>To to Email of Student</description>
+        <externalId>true</externalId>
+        <inlineHelpText>Enter Email here</inlineHelpText>
+        <label>Email</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Resume__c</fullName>
+        <externalId>false</externalId>
+        <label>Resume</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Stream__c</fullName>
+        <externalId>false</externalId>
+        <label>Stream</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cloud Computing</fullName>
+                    <default>true</default>
+                    <label>Cloud Computing</label>
+                </value>
+                <value>
+                    <fullName>Data Science</fullName>
+                    <default>false</default>
+                    <label>Data Science</label>
+                </value>
+                <value>
+                    <fullName>Mobile APP Development</fullName>
+                    <default>false</default>
+                    <label>Mobile APP Development</label>
+                </value>
+                <value>
+                    <fullName>Web Development</fullName>
+                    <default>false</default>
+                    <label>Web Development</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Courses__c</fullName>
+        <externalId>false</externalId>
+        <label>Courses</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Stream__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>C++</fullName>
+                    <default>false</default>
+                    <label>C++</label>
+                </value>
+                <value>
+                    <fullName>python</fullName>
+                    <default>false</default>
+                    <label>python</label>
+                </value>
+                <value>
+                    <fullName>salesforce admin</fullName>
+                    <default>false</default>
+                    <label>salesforce admin</label>
+                </value>
+                <value>
+                    <fullName>java</fullName>
+                    <default>false</default>
+                    <label>java</label>
+                </value>
+                <value>
+                    <fullName>mobile app development</fullName>
+                    <default>false</default>
+                    <label>mobile app development</label>
+                </value>
+                <value>
+                    <fullName>Adroid app debelopment</fullName>
+                    <default>false</default>
+                    <label>Adroid app debelopment</label>
+                </value>
+                <value>
+                    <fullName>Machine Learning</fullName>
+                    <default>false</default>
+                    <label>Machine Learning</label>
+                </value>
+                <value>
+                    <fullName>AI</fullName>
+                    <default>false</default>
+                    <label>AI</label>
+                </value>
+                <value>
+                    <fullName>Aws</fullName>
+                    <default>false</default>
+                    <label>Aws</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Cloud Computing</controllingFieldValue>
+                <valueName>salesforce admin</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cloud Computing</controllingFieldValue>
+                <valueName>Aws</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Data Science</controllingFieldValue>
+                <controllingFieldValue>Web Development</controllingFieldValue>
+                <valueName>python</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Data Science</controllingFieldValue>
+                <valueName>Machine Learning</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Data Science</controllingFieldValue>
+                <valueName>AI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mobile APP Development</controllingFieldValue>
+                <valueName>mobile app development</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Mobile APP Development</controllingFieldValue>
+                <valueName>Adroid app debelopment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Web Development</controllingFieldValue>
+                <valueName>C++</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Web Development</controllingFieldValue>
+                <valueName>java</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Hobbies__c</fullName>
+        <externalId>false</externalId>
+        <label>Hobbies</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Playing Cricket</fullName>
+                    <default>false</default>
+                    <label>Playing Cricket</label>
+                </value>
+                <value>
+                    <fullName>dancing</fullName>
+                    <default>false</default>
+                    <label>dancing</label>
+                </value>
+                <value>
+                    <fullName>singing</fullName>
+                    <default>false</default>
+                    <label>singing</label>
+                </value>
+                <value>
+                    <fullName>cycling</fullName>
+                    <default>false</default>
+                    <label>cycling</label>
+                </value>
+                <value>
+                    <fullName>running</fullName>
+                    <default>false</default>
+                    <label>running</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Graduated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Graduated</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Birth_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Birth date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>X12thmarks__c</fullName>
+        <externalId>false</externalId>
+        <label>12thmarks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Age_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>YEAR( TODAY() ) -  YEAR( Birth_date__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Age Formula</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Marks__c</fullName>
+        <externalId>false</externalId>
+        <formula>assigment_test1__c  +  assigment_test_2__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Marks</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>scholarship__c</fullName>
+        <externalId>false</externalId>
+        <label>scholarship</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Initial_Fees__c</fullName>
+        <externalId>false</externalId>
+        <label>Initial Fees</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Referance_by__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Referance by</label>
+        <referenceTo>Student__c</referenceTo>
+        <relationshipLabel>Students</relationshipLabel>
+        <relationshipName>Students</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <fields>
         <fullName>Student_Name__c</fullName>
         <defaultValue>&quot;Ram&quot;</defaultValue>
@@ -27,15 +510,34 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Student_location__c</fullName>
-        <displayLocationInDecimal>false</displayLocationInDecimal>
+        <fullName>Approval_status__c</fullName>
         <externalId>false</externalId>
-        <label>Student location</label>
+        <label>Approval status</label>
         <required>false</required>
-        <scale>5</scale>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Location</type>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Student_s_State__c</fullName>
@@ -51,6 +553,63 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>assigment_test1__c</fullName>
+        <externalId>false</externalId>
+        <label>assigment test1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Student_location__c</fullName>
+        <displayLocationInDecimal>false</displayLocationInDecimal>
+        <externalId>false</externalId>
+        <label>Student location</label>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Location</type>
+    </fields>
+    <fields>
+        <fullName>assigment_test_2__c</fullName>
+        <externalId>false</externalId>
+        <label>assigment test 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_batches__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of batches</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Registration_date__c</fullName>
+        <defaultValue>Today()</defaultValue>
+        <externalId>false</externalId>
+        <label>Registration date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Student_s_contact__c</fullName>
         <externalId>false</externalId>
         <label>Student&apos;s contact</label>
@@ -59,4 +618,261 @@
         <trackTrending>false</trackTrending>
         <type>Phone</type>
     </fields>
+    <recordTypes>
+        <fullName>Fresher_Record_type</fullName>
+        <active>true</active>
+        <label>Fresher Record type</label>
+        <picklistValues>
+            <picklist>Approval_status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Courses__c</picklist>
+            <values>
+                <fullName>C%2B%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>java</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>python</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>salesforce admin</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hobbies__c</picklist>
+            <values>
+                <fullName>Playing Cricket</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>cycling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>dancing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>running</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>singing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Stream__c</picklist>
+            <values>
+                <fullName>Cloud Computing</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Data Science</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile APP Development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web Development</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_s_State__c</picklist>
+            <values>
+                <fullName>Gujarat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Haryana</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kerla</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rajasthan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sikkim</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>bihar</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Working_Professional_record_type</fullName>
+        <active>true</active>
+        <label>Working Professional record type</label>
+        <picklistValues>
+            <picklist>Approval_status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Courses__c</picklist>
+            <values>
+                <fullName>AI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adroid app debelopment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aws</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C%2B%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machine Learning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>java</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>mobile app development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>python</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>salesforce admin</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hobbies__c</picklist>
+            <values>
+                <fullName>Playing Cricket</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>cycling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>dancing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>running</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>singing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Stream__c</picklist>
+            <values>
+                <fullName>Cloud Computing</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Data Science</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile APP Development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web Development</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_s_State__c</picklist>
+            <values>
+                <fullName>Gujarat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Haryana</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kerla</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rajasthan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sikkim</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>bihar</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <validationRules>
+        <fullName>age_validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>Age__c &lt; 10</errorConditionFormula>
+        <errorDisplayField>Age__c</errorDisplayField>
+        <errorMessage>Please enter age greater than 10</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>initialfees_rule</fullName>
+        <active>true</active>
+        <errorConditionFormula>(Initial_Fees__c &lt;=2000 &amp;&amp;  ISPICKVAL( Courses__c , &quot;Aws&quot;))|| (Initial_Fees__c &lt;=3000 &amp;&amp;  ISPICKVAL( Courses__c , &quot;salesforce admin&quot;))||(Initial_Fees__c &lt;=4000 &amp;&amp;  ISPICKVAL( Courses__c , &quot;C++&quot;))</errorConditionFormula>
+        <errorMessage>Initial fees should be minimum</errorMessage>
+    </validationRules>
 </CustomObject>
